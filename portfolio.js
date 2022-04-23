@@ -1,184 +1,85 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Mahmood Ahmed",
+	title: "Hi all, I'm Mahmood Ahmed",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"Software engineer having an experience of building Cross Platform Mobile Apps With Flutter. 4+ years of professional work experience with multidisciplinary teams in international projects for Startups and with independent professionals in Development, User Experience and Product Design. Experienced team lead, ability to work in team and individual as well. I have a great passion for technology and always eager to learn new skills, discover new technology, and find ways I can help. I love design, coding, startup, business. I like to be challenged and get out of my comfort zone.",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "MahmoodAhmed01",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	facebook: "https://www.facebook.com/mahmood.ahmed.1690/",
+	// instagram: "https://www.instagram.com/1hanzla100",
+	twitter: "https://twitter.com/Mahmood79956213",
+	github: "https://github.com/MahmoodAhmed01",
+	linkedin: "https://www.linkedin.com/in/mahmood-ahmed-83370495/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY MOBILE APPLICATION DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			title: "Mobile Application Development",
+			lottieAnimationFile: "/lottie/mobiledev.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Develop highly interactive mobile applications"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Progressive Mobile Applications"),
 				emoji(
-					"⚡ Building RESTful APIs in Djnago & Django REST Framework"
+					"⚡ Integration of third party services such as Firebase / MongoDB / Digital Ocean"
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
+					skillName: "flutter",
+					fontAwesomeClassname: "logos:flutter",
 				},
 				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
+					skillName: "firebase",
+					fontAwesomeClassname: "logos:firebase",
+				},
+				{
+					skillName: "nodejs",
+					fontAwesomeClassname: "logos:nodejs-icon",
 				},
 				{
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
 				},
 				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+					skillName: "TypeScript",
+					fontAwesomeClassname: "logos:typescript-icon",
 				},
 				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "npm",
+					fontAwesomeClassname: "vscode-icons:file-type-npm",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "sql-database",
+					fontAwesomeClassname: "vscode-icons:file-type-sql",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
-				},
-
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "mongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-mongo",
 				},
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
+					skillName: "git",
+					fontAwesomeClassname: "logos:git-icon",
 				},
 				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
-			],
-		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
-			],
-		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
+					skillName: "gitlab",
+					fontAwesomeClassname: "logos:gitlab",
 				},
 			],
 		},
@@ -187,87 +88,134 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "UI Designing",
+		progressPercentage: "100",
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "90",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "100",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
+		schoolName: "Bahauddin Zakariya University",
 		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		duration: "November 2015 - November 2017",
+		desc: "Participated in the Mobile Application Development Competition Visio Spark (2K16).",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Programming Fundamentals",
+			"Object Oriented Programming",
+			"Operating Systems",
+			"Data Structures & Algorithms",
+			"Human Computer Interaction",
+		],
+	},
+	{
+		schoolName: "Bahauddin Zakariya University",
+		subHeader: "Bachelor of Science in Computer Science",
+		duration: "September 2013 - August 2015",
+		desc: "Ranked top 10% in the programming. Took course about Programming, Software Engineering, Operating Systems.",
+		descBullets: [
+			"Object Oriented Programming",
+			"Introduction to Database",
+			"System Analysis & Design",
+			"Data Structures & Algorithms",
+			"Operating Systems",
+		],
+	},
+	{
+		schoolName: "Board of Intermediate Education",
+		subHeader: "Intermediate of Computer Science",
+		duration: "September 2011 - September 2013",
+		desc: "",
+		descBullets: [
+			"Computer Studies",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
+		role: "Flutter Developer",
+		company: "Bamrec",
+		companylogo: "/img/icons/common/bamrec.png",
+		headerColor: '#F7941D',
+		date: "February 2020 – Present",
+		desc: "In my role as a mobile application developer at Bamrec, I proved to be an efficient, enthusiastic, and creative developer. My value quickly became apparent to Bamrec’s shareholders after I help the team to developed a mobile applications using flutter.",
+		descBullets: [
+			"Firebase Database",
+			"REST api integration",
+			"Mobx for state management",
+			"Shifting to GetX from Mobx for state management",
+			"Firebase cloud functions",
+			"Push Notifications",
+			"Deep linking",
+		],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+		role: "React Native Developer",
+		company: "Tbox",
+		companylogo: "/img/icons/common/tbox.png",
+		headerColor: '#D20205',
+		date: "February 2018 – January 2020",
+		desc: "",
+		descBullets: [
+			"Firebase Database",
+			"REST api integration",
+			"Redux for state management",
+			"Firebase cloud functions",
+			"Push Notifications",
+			"Deep linking",
+			"Took initiative to help redesign and implement various screens"
+		],
 	},
 	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "Software Engineer Intern",
+		company: "Vzotech",
+		companylogo: "/img/icons/common/vzo.png",
+		headerColor: '#1977B4',
+		date: "July 2017 – December 2017",
+		desc: "",
+		descBullets: [
+			"Android activity life cycle",
+			"Creating Restful APIs",
+			"Making connection with database using hapi server",
+			"Firebase"
+		],
+
 	},
 ];
 
 export const projects = [
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		name: "Bamrec Events",
+		desc: "Explore the upcoming events, parents can register their kids for some of them! They can see their kid's activities during events and much more.",
+		link: "https://apps.apple.com/us/app/bamrec-events/id1437166908",
+		appLogo: "/img/icons/common/bamrec.png",
+
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		name: "Bamrec Organizer",
+		desc: "Bamrec Organizer App empowers organizer and mentors to create and manage different events. It allows to see the statistics of each event.",
+		link: "https://apps.apple.com/us/app/bamrec-organizer/id1453497890",
+		appLogo: "/img/icons/common/bamrec.png",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
+		name: "Usalak",
+		desc: "Users can order grocery items while sitting at home. They can see their nearby shops and can place orders. They also keep track of orders. Users can see latest offers, discounts and much more.",
+		link: "https://play.google.com/store/apps/details?id=com.usalak",
+		appLogo: "/img/icons/common/bamrec.png",
 	},
 	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
-	},
-	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Clubenz",
+		desc: "Clubenz app is your digital hub for all automobile services providers in Egypt specialised in Mercedes. It is putting all the information about all these providers between your hands including their working hours and latest offers.",
+		link: "https://apps.apple.com/us/app/clubenz/id1547165477",
+		appLogo: "/img/icons/common/bamrec.png",
 	},
 ];
 
