@@ -19,19 +19,17 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Mahmood Ahmed",
 					description:
-						"A passionate Full Stack Web Developer and Blockchain Developer.",
+						"A passionate Mobile Application Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					url: "my-portfolio-mmd4ue1pl-mahmoodahmed01.vercel.app",
 					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
+						"Mahmood",
+						"Mahmood Ahmed",
 						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
+						"Mahmood Portfolio ",
+						"Mahmood Ahmed Portfolio",
 					],
 				}}
 			/>
