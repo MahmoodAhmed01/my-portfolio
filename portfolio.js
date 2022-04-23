@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"Software engineer having an experience of building Cross Platform Mobile Apps With Flutter. 4+ years of professional work experience with multidisciplinary teams in international projects for Startups and with independent professionals in Development, User Experience and Product Design. Experienced team lead, ability to work in team and individual as well. I have a great passion for technology and always eager to learn new skills, discover new technology, and find ways I can help. I love design, coding, startup, business. I like to be challenged and get out of my comfort zone.",
 	resumeLink:
-		"",
+		"https://drive.google.com/file/d/1dEefgIaDuqZzBgCV7tW-9gQahtWcZAgz/view?usp=sharing",
 };
 
 export const openSource = {
