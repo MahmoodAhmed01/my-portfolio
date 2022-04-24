@@ -22,8 +22,8 @@ export default function Home({ githubProfileData }) {
 					title: "Mahmood Ahmed",
 					description:
 						"A passionate Mobile Application Developer.",
-					image: "https://avatars.githubusercontent.com/MahmoodAhmed01",
-					url: "my-portfolio-mmd4ue1pl-mahmoodahmed01.vercel.app",
+					image: "https://avatars3.githubusercontent.com/u/27868872?v=4",
+					url: "my-portfolio-iutiykiln-mahmoodahmed01.vercel.app",
 					keywords: [
 						"Mahmood",
 						"Mahmood Ahmed",
