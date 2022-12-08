@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 	facebook: "https://www.facebook.com/mahmood.ahmed.1690/",
-	// instagram: "https://www.instagram.com/1hanzla100",
+	instagram: "https://www.instagram.com/mahmood.ahmed.1690/",
 	twitter: "https://twitter.com/Mahmood79956213",
 	github: "https://github.com/MahmoodAhmed01",
 	linkedin: "https://www.linkedin.com/in/mahmood-ahmed-83370495/",
